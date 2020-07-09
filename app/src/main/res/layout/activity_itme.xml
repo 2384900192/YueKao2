@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <CheckBox
+        android:layout_marginTop="30dp"
+        android:id="@+id/cherck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+           android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tv_stockCount"
+            android:layout_marginTop="60dp"
+            android:layout_below="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rolli" />
+        <TextView
+            android:id="@+id/tv_sellCount"
+            android:layout_margin="60dp"
+            android:layout_below="@+id/tv_name"
+            android:text="roll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tv_price"
+            android:text="444"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+    </RelativeLayout>
+
+</LinearLayout>
