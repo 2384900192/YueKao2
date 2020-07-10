@@ -38,7 +38,7 @@ public class MainModel {
                         if (mainBean!=null){
                             callBack.onSuccess(mainBean);
                         }else {
-                            callBack.onFail("参数有误");
+                            callBack.onFail("参数有误6");
                         }
                     }
 
